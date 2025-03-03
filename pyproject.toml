@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tfs"
+version = "0.1.0"
+description = "A minimal implementation of transformers from scratch"
+authors = [{ name = "Miguel", email = "" }]
+dependencies = ["torch"]
+license = { file = "LICENSE" }
+
+[tool.setuptools]
+packages = ["tfs"]
+
+[tool.setuptools.package-dir]
+"" = "src"
