@@ -1,6 +1,6 @@
 import torch
 
-from tfs.self_attention import SelfAttention
+from tfs.attention.self_attention import SelfAttention
 
 
 class MultiHeadSelfAttention(torch.nn.Module):
